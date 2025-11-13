@@ -3,7 +3,7 @@ cask "pm" do
   name "pm"
   desc ""
   homepage "https://github.com/blurfx/homebrew-tap"
-  version "0.2.5"
+  version "0.2.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pm" do
   on_macos do
     on_intel do
       url "https://github.com/blurfx/pm/releases/download/v#{version}/pm_Darwin_x86_64.tar.gz"
-      sha256 "447bed3068c250f1b37c975800c5068522190061b40a3d7f52b3ddb40572ae77"
+      sha256 "9c55a2894eb6be6140bbc8f279e6b71e9c02f57687da26ffc4f105d8e4971c3f"
     end
     on_arm do
       url "https://github.com/blurfx/pm/releases/download/v#{version}/pm_Darwin_arm64.tar.gz"
-      sha256 "f13ea1f51b96cba9c70baabf7c92f4482fd81e14a61484de65f0a11b6a41fd35"
+      sha256 "a79b5a0e299ef5dbceb1f161396b7aa7511c5a35a653292ff5c68b8a97895a38"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/blurfx/pm/releases/download/v#{version}/pm_Linux_x86_64.tar.gz"
-      sha256 "3f49e90558086fed6de7bb820c350291aa3ebeacfd30abd9c1940353b0544f3c"
+      sha256 "31fcbdbc1c805e2dd33445f57a3647ccf9ae1b4ff3bfe8f468807f2f735c14e8"
     end
     on_arm do
       url "https://github.com/blurfx/pm/releases/download/v#{version}/pm_Linux_arm64.tar.gz"
-      sha256 "0c7257701e51a82d667a24e0555e42e5496083195ea205c1fb1d077d1cc943e7"
+      sha256 "58222d815430494bc022a4d887fa581ce8457648dd880dc8a0af6d0f331e8c2a"
     end
   end
 
