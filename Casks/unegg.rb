@@ -3,7 +3,7 @@ cask "unegg" do
   name "unegg"
   desc ""
   homepage "https://github.com/blurfx/homebrew-tap"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "unegg" do
   on_macos do
     on_intel do
       url "https://github.com/blurfx/unegg/releases/download/v#{version}/unegg_Darwin_x86_64.tar.gz"
-      sha256 "88304624558d03041ea5b5dd73289de7d892283ac7985fd151db4a517274189f"
+      sha256 "1db7f893abee4438a7ca3980d70fe4825ec3153b0f442a51442db205a07f2635"
     end
     on_arm do
       url "https://github.com/blurfx/unegg/releases/download/v#{version}/unegg_Darwin_arm64.tar.gz"
-      sha256 "7689b23c4e38f940aae4c7a527498314241b2f886ad7de4b352c8c42e3586da4"
+      sha256 "b3d86e1f293c378465899d0ed6c5deded3b208200f9be9d2fd4f6ab34e421977"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/blurfx/unegg/releases/download/v#{version}/unegg_Linux_x86_64.tar.gz"
-      sha256 "d83d980a3a8cb9800fdab6b3b10a96a8aeeb127139e41a6b3de572177d8d1196"
+      sha256 "5f5afd308b366b6c6826985b6401126b5673e712057e0f3aac9ae097db5fd2be"
     end
     on_arm do
       url "https://github.com/blurfx/unegg/releases/download/v#{version}/unegg_Linux_arm64.tar.gz"
-      sha256 "8a130fb1fb25e6204f66283c9ffb0cc45e79d6532758f4269bf0e53497847ee1"
+      sha256 "d14ce6707227ffbefc8e948547cedb410e74496ae30923fa2639a3eb6ba2b8b2"
     end
   end
 
